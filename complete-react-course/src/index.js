@@ -1,17 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const header = <h1>This is my first React app</h1>;
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(header, document.getElementById("root"));
+
+/* Understanding React Project #1
+https://www.youtube.com/watch?v=emzrev03Ppc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=1&pp=iAQB
+https://www.youtube.com/watch?v=RDkXa4Ge7lM&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=2&pp=iAQB
+https://www.youtube.com/watch?v=nA-lG5BLYYk&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=3&pp=iAQB
+https://www.youtube.com/watch?v=iAgxi6SQ678&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=4&pp=iAQB */
