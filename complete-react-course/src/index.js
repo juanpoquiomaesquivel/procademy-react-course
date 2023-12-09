@@ -16,6 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* Embedding expresions & JSX Attributes #4
-https://www.youtube.com/watch?v=tQyMmB50coo&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=12&pp=iAQB
-https://www.youtube.com/watch?v=BvBf8GjsYdw&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=13&pp=iAQB */
+/* Adding classes dinamiclly #5
+https://www.youtube.com/watch?v=PAv5gEqU0fI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=14&pp=iAQB */

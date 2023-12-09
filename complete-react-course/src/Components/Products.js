@@ -1,5 +1,9 @@
 let productCount = 0;
 let imageUrl = require("../Images/fresh-milk.png");
+let isAvailable = "Available";
+
+let badgeClass = "badge-margin-left-240 badge ";
+badgeClass += isAvailable === "Available" ? "bg-success" : "bg-danger";
 /* let style = {
     padding: "0 20px",
     // fontSize: 12
@@ -35,6 +39,7 @@ function Products() {
                                 {displayFormattedProductCount()}
                             </span>
                             <button className="btn btn-primary">+</button>
+                            <span className={badgeClass}>{isAvailable}</span>
                         </div>
                     </div>
                     <img
