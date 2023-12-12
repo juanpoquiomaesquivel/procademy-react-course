@@ -16,5 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* passing data via props #6
-https://www.youtube.com/watch?v=1Vxe-1V0ADw&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=15&pp=iAQB */
+/* children props #8
+https://www.youtube.com/watch?v=Fdu1IzH_PEs&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=17&pp=iAQB */
