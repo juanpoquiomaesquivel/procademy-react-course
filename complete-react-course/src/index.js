@@ -16,5 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* Adding classes dinamiclly #5
-https://www.youtube.com/watch?v=PAv5gEqU0fI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=14&pp=iAQB */
+/* passing data via props #6
+https://www.youtube.com/watch?v=1Vxe-1V0ADw&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=15&pp=iAQB */
