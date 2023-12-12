@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; // it was mandatory in older version of React, in every component file (good practice)
 import ReactDOM from "react-dom/client";
 import App from "./app";
 import "bootstrap/dist/css/bootstrap.css";
@@ -16,5 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* children props #8
-https://www.youtube.com/watch?v=Fdu1IzH_PEs&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=17&pp=iAQB */
+/* jsx syntax & js approach #9
+https://www.youtube.com/watch?v=xMAb5sm1zJM&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=18&pp=iAQB */
