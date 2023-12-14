@@ -2,6 +2,7 @@ import React from "react";
 import ProductDetails from "./ProductDetails";
 
 function Products(props) {
+    console.log("products Component executed");
     return (
         <li className="list-group-item">
             <div className="media align-items-lg-center flex-column flex-lg-row p-3 d-flex">
@@ -13,8 +14,7 @@ function Products(props) {
                     <ProductDetails
                         price={props.price}
                         isAvailable={props.isAvailable}
-                    >
-                    </ProductDetails>
+                    ></ProductDetails>
                 </div>
                 <img
                     src={props.image}

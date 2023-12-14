@@ -1,34 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
-let productCount = 0;
-
-function displayFormattedProductCount() {
-    return productCount > 0 ? productCount : "Zero";
-}
-
 function ProductDetails(props) {
+    console.log("productDetail Component executed");
     let badgeClass = "badge-margin-left-240 badge ";
     badgeClass += props.isAvailable ? "bg-success" : "bg-danger";
 
-    /* return (
+    //let productCount = 0;
+    let [productCount, updateCount] = useState(0); // we need to use this in order to change view
+
+    function displayFormattedProductCount() {
+        return productCount > 0 ? productCount : "Zero";
+    }
+
+    let incrementProductCount = function () {
+        // productCount++;
+        // console.log(productCount);
+        updateCount(++productCount);
+    };
+
+    let decrementProductCount = function () {
+        // productCount--;
+        // console.log(productCount);
+        updateCount(--productCount);
+    };
+
+    return (
         <div className="d-flex align-items-center justify-content-start mt-1">
             <h6 className="fw-bold my-2" style={{ marginRight: 30 }}>
                 {"$" + props.price}
             </h6>
-            <Button children="2">-</Button>
+            <Button eventHandler={decrementProductCount}>-</Button>
             <span style={{ padding: "8px 14px", fontSize: 13 }}>
                 {displayFormattedProductCount()}
             </span>
-            <Button>+</Button>
+            <Button eventHandler={incrementProductCount}>+</Button>
             <span className={badgeClass}>
                 {props.isAvailable ? "Available" : "Unavailable"}
             </span>
         </div>
-    ); */
+    );
 
     // javascript approach
-    return React.createElement(
+    /* return React.createElement(
         "div",
         { className: "d-flex align-items-center justify-content-start mt-1" },
         React.createElement(
@@ -48,7 +62,7 @@ function ProductDetails(props) {
             { className: badgeClass },
             props.isAvailable ? "Available" : "Unavailable"
         )
-    );
+    ); */
 }
 
 export default ProductDetails;

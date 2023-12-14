@@ -16,5 +16,8 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* jsx syntax & js approach #9
-https://www.youtube.com/watch?v=xMAb5sm1zJM&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=18&pp=iAQB */
+/* handling events & useState #10
+https://www.youtube.com/watch?v=dI8HzaBu6yQ&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=19&pp=iAQB
+https://www.youtube.com/watch?v=BO82cOADmaE&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=20&pp=iAQB
+https://www.youtube.com/watch?v=ZRHl-ZGFcoI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=21&pp=iAQB
+https://www.youtube.com/watch?v=dUTsFjTW1kc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=22&pp=iAQB */
