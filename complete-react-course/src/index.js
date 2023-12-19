@@ -16,8 +16,11 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* handling events & useState #10
-https://www.youtube.com/watch?v=dI8HzaBu6yQ&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=19&pp=iAQB
-https://www.youtube.com/watch?v=BO82cOADmaE&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=20&pp=iAQB
-https://www.youtube.com/watch?v=ZRHl-ZGFcoI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=21&pp=iAQB
-https://www.youtube.com/watch?v=dUTsFjTW1kc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=22&pp=iAQB */
+/* working with forms & multiple states #11
+https://www.youtube.com/watch?v=1YYJ-IWeOLk&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=23&pp=iAQB
+https://www.youtube.com/watch?v=WWFSpgAp32o&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=24&pp=iAQB
+https://www.youtube.com/watch?v=qDuocpeQrhY&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=25&pp=iAQB
+https://www.youtube.com/watch?v=MwDfLShn7Fc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=26&pp=iAQB
+https://www.youtube.com/watch?v=7BMHKUrsMUs&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=27&pp=iAQB
+https://www.youtube.com/watch?v=yi4_ujhUKcI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=28&pp=iAQB
+https://www.youtube.com/watch?v=jmv83WjCaQU&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=29&pp=iAQB */
