@@ -16,11 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* working with forms & multiple states #11
-https://www.youtube.com/watch?v=1YYJ-IWeOLk&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=23&pp=iAQB
-https://www.youtube.com/watch?v=WWFSpgAp32o&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=24&pp=iAQB
-https://www.youtube.com/watch?v=qDuocpeQrhY&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=25&pp=iAQB
-https://www.youtube.com/watch?v=MwDfLShn7Fc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=26&pp=iAQB
-https://www.youtube.com/watch?v=7BMHKUrsMUs&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=27&pp=iAQB
-https://www.youtube.com/watch?v=yi4_ujhUKcI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=28&pp=iAQB
-https://www.youtube.com/watch?v=jmv83WjCaQU&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=29&pp=iAQB */
+/* data from child to parent component #12
+https://www.youtube.com/watch?v=MQL6ApXfcS0&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=30&pp=iAQB */

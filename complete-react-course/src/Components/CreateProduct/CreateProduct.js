@@ -1,6 +1,11 @@
 import ProductForm from "./ProductForm";
 
-function CreateProduct() {
+function CreateProduct(props) {
+    function onCreateProduct(product) {
+        // console.log(product);
+        props.createProduct(product);
+    }
+
     return (
         <div
             style={{
@@ -9,7 +14,7 @@ function CreateProduct() {
                 borderRadius: 2,
             }}
         >
-            <ProductForm></ProductForm>
+            <ProductForm createProduct={onCreateProduct}></ProductForm>
         </div>
     );
 }

@@ -75,7 +75,8 @@ function ProductForm(props) {
         updateAvailability(false);
         updateImageUrl("");
 
-        console.log(product);
+        // console.log(product);
+        props.createProduct(product);
     }
 
     return (
