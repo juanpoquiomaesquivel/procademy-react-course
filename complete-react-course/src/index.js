@@ -16,5 +16,6 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* using Stateful list #14
-https://www.youtube.com/watch?v=BK2QgaOaQfw&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=32&pp=iAQB */
+/* understanding key prop & filtering  #15
+https://www.youtube.com/watch?v=LTy-VfBVw1U&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=33&pp=iAQB
+https://www.youtube.com/watch?v=weFOaIHlDpo&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=34&pp=iAQB */
