@@ -16,5 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* data from child to parent component #12
-https://www.youtube.com/watch?v=MQL6ApXfcS0&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=30&pp=iAQB */
+/* Rendering List #13
+https://www.youtube.com/watch?v=Z46L6fdsBd8&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=31&pp=iAQB */
