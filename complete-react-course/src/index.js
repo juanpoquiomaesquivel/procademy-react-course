@@ -16,5 +16,5 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* Rendering List #13
-https://www.youtube.com/watch?v=Z46L6fdsBd8&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=31&pp=iAQB */
+/* using Stateful list #14
+https://www.youtube.com/watch?v=BK2QgaOaQfw&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=32&pp=iAQB */
