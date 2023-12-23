@@ -30,7 +30,12 @@ function ProductDetails(props) {
             <h6 className="fw-bold my-2" style={{ marginRight: 30 }}>
                 {"$" + props.price}
             </h6>
-            <Button eventHandler={decrementProductCount}>-</Button>
+            <Button
+                eventHandler={decrementProductCount}
+                disable={productCount === 0}
+            >
+                -
+            </Button>
             <span style={{ padding: "8px 14px", fontSize: 13 }}>
                 {displayFormattedProductCount()}
             </span>
