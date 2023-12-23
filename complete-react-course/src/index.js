@@ -16,6 +16,6 @@ root.render(<App></App>);
 // let div = document.getElementById('root');
 // div.append(App());
 
-/* understanding key prop & filtering  #15
-https://www.youtube.com/watch?v=LTy-VfBVw1U&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=33&pp=iAQB
-https://www.youtube.com/watch?v=weFOaIHlDpo&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=34&pp=iAQB */
+/* displaying conditional content  #16
+https://www.youtube.com/watch?v=a5vaH-iD3Kc&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=35&pp=iAQB
+https://www.youtube.com/watch?v=O0Y7giUdMN0&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=36&pp=iAQB */
