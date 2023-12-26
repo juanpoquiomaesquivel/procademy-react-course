@@ -15,3 +15,8 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+/* Fragments, Portals & Refs #1
+https://www.youtube.com/watch?v=anD1iSgEtqI&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=39&pp=iAQB
+https://www.youtube.com/watch?v=VaMTTyB-Zqg&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=40&pp=iAQB
+https://www.youtube.com/watch?v=l2XjojjW5jQ&list=PL1BztTYDF-QMPh8UW3xxk8C6uk2WVfUS3&index=41&pp=iAQB */
